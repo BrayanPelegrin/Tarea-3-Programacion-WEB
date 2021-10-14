@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda de Contactos</title>
+    <link rel="stylesheet" href="css/Index.css" type="text/css" />
+    <script src="js/Index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor-barra-nav">
+        <img src="img/Logo.jpg" class="logo" />
+        <nav class="barra-nav">
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="contenedor-formulario">
+      <form id="formulario">
+        <table class="tabla-formulario" id="tabla-formulario">
+          <tr>
+            <th class="fila-info">
+              <img src="img/avatar.png" class="avatar" />
+              <h2>Registro de Contactos</h2>
+            </th>
+            <th class="fila-form">
+              <h2>Informacion del Contacto</h2>
+              <br />
+              <p align="left">Nombre*</p>
+              <input type="text" id="nombre" placeholder="Nombre..." />
+              <br />
+              <p align="left">Apellido*</p>
+              <input type="text" id="apellido" placeholder="Apellido..." />
+              <br />
+              <p align="left">Telefono*</p>
+              <input type="text" id="telefono" placeholder="Telefono..." />
+              <br />
+              <button class="btn-guardar" onclick="enviarContactos()">
+                Guardar Contacto
+              </button>
+            </th>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <div class="contenedor-contactos">
+      <table class="tabla-contactos" id="tablaContactos">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Telefono</th>
+          </tr>
+        </thead>
+        <tbody id="tablaCuerpo">
+          <tr>
+            <td>Brian</td>
+            <td>Pelegrin</td>
+            <td>829-360-7260</td>
+          </tr>
+          <tr>
+            <td>Brian</td>
+            <td>Pelegrin</td>
+            <td>829-360-7260</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+    </div>
+  </body>
+</html>

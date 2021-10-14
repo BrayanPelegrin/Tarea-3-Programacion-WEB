@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d9d9d9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background: white;
+  padding: 2rem 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header a {
+  text-decoration: none;
+  color: #2271b3;
+}
+
+.contenedor-barra-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.barra-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.barra-nav ul li {
+  display: inline-block;
+}
+
+.barra-nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 1px solid #2271b3;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.barra-nav ul li a:hover {
+  background: #2271b3;
+  color: white;
+}
+.logo {
+  width: 150px;
+  height: 100px;
+  padding: -10%;
+  margin: -10%;
+  padding-left: 100px;
+}
+.avatar {
+  height: 200px;
+  width: 200px;
+}
+
+.contenedor-formulario {
+  position: absolute;
+  left: 20%;
+  top: 25%;
+  margin-top: -25px;
+}
+.tabla-formulario {
+  border-collapse: collapse;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 30px;
+  margin-top: -25px;
+}
+.fila-info {
+  margin: 0;
+  background: #2271b3;
+  color: white;
+  height: 400px;
+  width: 300px;
+  border-radius: 15px 0px 0px 15px;
+}
+.fila-form {
+  font-size: 20px;
+  margin: 0;
+  background: whitesmoke;
+  height: 400px;
+  width: 500px;
+  border-radius: 0px 15px 15px 0px;
+}
+.fila-form p {
+  margin-left: 25px;
+  align-self: flex-start;
+}
+
+.fila-form input {
+  margin-bottom: 30px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #2271b3;
+  width: 90%;
+  height: 30px;
+  font-size: 17px;
+}
+
+.btn-guardar {
+  background: #2271b3;
+  color: white;
+  border: 1px solid #2271b3;
+  border-radius: 15px;
+  height: 35px;
+  font-size: 15px;
+  transition: 0.5s;
+  width: 150px;
+}
+.btn-guardar:hover {
+  background-color: #2271b3;
+  width: 200px;
+}
+
+.contenedor-contactos {
+  margin: 150px auto;
+  margin-bottom: 10px;
+  margin-top: -420px;
+}
+.tabla-contactos {
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  margin-top: -100px;
+}
+
+.tabla-contactos th,
+td {
+  width: 225px;
+  padding: 20px;
+}
+thead {
+  border-bottom: 10px solid #2271b391;
+  background-color: #2271b3;
+}
+tr:nth-child(even) {
+  background-color: #2271b320;
+}
